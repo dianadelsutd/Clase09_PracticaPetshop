@@ -17,15 +17,15 @@
         </ul>
       </section>
       <section class="header-container-bottom">
-        <div>
-          <p class="logo">
+        <div class="logo">
+          <p >
             <img src="img/Cat.png" alt="Logo gato" />
             <span class="texto-logo-top">Front</span>
             Cat&Dog
             <img src="img/Dog.png" alt="" />
           </p>
         </div>
-        <nav>
+        <nav class="nav">
           <div>
             <ul class="nav-lista">
               <li>
@@ -48,6 +48,7 @@
           </div>
         </nav>
       </section>
+    </header>
       <main>
         <div class="contenedor-fondo">
           <div class="contenedor-titulo">
@@ -57,8 +58,8 @@
           </div>
         </div>
         <div class="contenedor-main">
-          <div>
-            <img src="img/pawprint1.png" alt="pawprint" />
+          <div class="div1">
+            <img class="imgn1" src="img/pawprint1.png" alt="pawprint" />
             <h2>Productos Destacados</h2>
             <div>
               <ul class="menu-lista">
@@ -70,28 +71,29 @@
               </ul>
             </div>
           </div>
-          <div class="contenedor-gallery">
-            <div class="gallery">
-              <img src="img/churrasquito.png" alt="" />
+          <div class="contenedor-imgs">
+            <div>
+              <img class="imgn" src="img/churrasquito.png" alt="" />
               <div class="desc">Juguete churrasquito</div>
             </div>
-            <div class="gallery">
-              <img src="img/comedero.png" alt="" />
+            <div>
+              <img class="imgn" src="img/comedero.png" alt="" />
               <div class="desc">Comedero para perro</div>
             </div>
-            <div class="gallery">
-              <img src="img/Huesito.png" alt="" />
+            <div>
+              <img class="imgn" src="img/Huesito.png" alt="" />
               <div class="desc">Jueguete huesito</div>
             </div>
           </div>
+         
           <!-- FORMULARIO -->
           <div class="container-form">
             <h3>Contáctanos</h3>
 
             
-              <form action="/action_page.php">
+              <form class="form" action="/action_page.php">
                 <label for="fname"></label>
-                <input
+                <input class="entradaform"
                   type="text"
                   id="fname"
                   name="firstname"
@@ -99,41 +101,79 @@
                 />
 
                 <label for="lname"></label>
-                <input
+                <input class="entradaform"
                   type="text"
                   id="lname"
                   name="lastname"
                   placeholder="Ingresa tu correo electrónico"
                 />
                 <label for="lname"></label>
-                <input
+                <input class="entradaform"
                   type="text"
                   id="lname"
                   name="lastname"
                   placeholder="Teléfono"
                 />
 
-                <input type="submit" value="Resetear" />
-                <input type="submit" value="Enviar" />
+                <input type="submit" class="button1" value="Resetear" />
+                <input type="submit" class="button2" value="Enviar" />
 
               </form>
+           
+              
             </div>
           </div>
           <div class="container-nav-susc">
-            <img src="img/Icono.png" alt="logo sobre">
-            <span>Suscríbete para más novedades</span>
+            <div class="container-nav-div1">
+              <img src="img/enviar-correo1.png" alt="logo sobre">
+              <p>Suscríbete para más novedades</p>
+            </div>
+            <div class="container-nav-div2">
+              <input class="entrada"
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Ingresa tu correo electrónico"
+            />
+            <input type="submit" class="button3" value="Suscribirme" />
+            </div>
+           
             
           </div>
         </div>
         <footer>
-          <img src="img/Icono.png" alt="logo sobre">
-          <span>Localidad</span>
-          <img src="img/Icono.png" alt="">
-          <span>Telefono</span>
-          <img src="img/Icono.png" alt=""> 
-          <span>Correo Electronico</span>
+          <div class="footer-divs">
+            <div class="footer-img">
+              <img src="img/Icono.png" alt="logo sobre">
+            </div>
+            <div class="footer-subdivs">
+              <h4>Localidad</h4>
+              <p>Calle - Provincia</p>
+            </div>
+            
+          </div>
+          <div class="footer-divs">
+            <div class="footer-img">
+              <img src="img/Icono.png" alt="">
+            </div>
+            <div class="footer-subdivs">
+              <h4>Telefono</h4>
+              <p>Número de teléfono</p>
+            </div>
+          </div>
+          <div class="footer-divs">
+           <div class="footer-img">
+            <img src="img/Icono.png" alt=""> 
+           </div> 
+           <div class="footer-subdivs">
+             <h4>Correo Electronico</h4>
+             <p>Dirección de correo</p>
+           </div>
+          </div>
+         
+          
         </footer>
       </main>
-    </header>
+    
   </body>
 </html>
